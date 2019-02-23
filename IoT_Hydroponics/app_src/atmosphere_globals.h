@@ -1,0 +1,10 @@
+
+#ifndef __ATMO_GLOBALS__H
+#define __ATMO_GLOBALS__H
+
+#define ATMO_GLOBALS_PROJECTUUID "a4fb908e-5a03-40f7-9b9c-98858d828b27"
+#define ATMO_GLOBALS_BUILDUUID "c8fff4e1-55e2-417e-9c5a-4726285cfc20"
+#define ATMO_GLOBALS_GIT_HASH "0af3910"
+#define ATMO_GLOBALS_GIT_BRANCH "production-nxp"
+
+#endif

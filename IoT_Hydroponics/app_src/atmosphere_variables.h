@@ -1,0 +1,30 @@
+
+#ifndef ATMO_VARIABLES_H
+#define ATMO_VARIABLES_H
+
+#ifdef __cplusplus
+	extern "C"{
+#endif
+
+#define ATMO_VARIABLE(ELEMENT, NAME) ATMO_ ## ELEMENT ## _VARIABLE_ ## NAME
+
+static ATMO_BLE_Handle_t ATMO_AirQualityCharacteristic_VARIABLE_bleServiceHandle;
+static ATMO_BLE_Handle_t ATMO_AirQualityCharacteristic_VARIABLE_bleCharacteristicHandle;
+static ATMO_BLE_Handle_t ATMO_TemperatureCharacteristic_VARIABLE_bleServiceHandle;
+static ATMO_BLE_Handle_t ATMO_TemperatureCharacteristic_VARIABLE_bleCharacteristicHandle;
+static ATMO_BLE_Handle_t ATMO_HumidityCharacteristic_VARIABLE_bleServiceHandle;
+static ATMO_BLE_Handle_t ATMO_HumidityCharacteristic_VARIABLE_bleCharacteristicHandle;
+static ATMO_BLE_Handle_t ATMO_PressureCharacteristic_VARIABLE_bleServiceHandle;
+static ATMO_BLE_Handle_t ATMO_PressureCharacteristic_VARIABLE_bleCharacteristicHandle;
+static ATMO_BLE_Handle_t ATMO_AmbientLightCharacteristic_VARIABLE_bleServiceHandle;
+static ATMO_BLE_Handle_t ATMO_AmbientLightCharacteristic_VARIABLE_bleCharacteristicHandle;
+static ATMO_DriverInstanceHandle_t ATMO_Temperature_P_VARIABLE_pageHandle;
+static ATMO_DriverInstanceHandle_t ATMO_Humidity_Pag_VARIABLE_pageHandle;
+static ATMO_DriverInstanceHandle_t ATMO_Pressure_Pag_VARIABLE_pageHandle;
+static ATMO_DriverInstanceHandle_t ATMO_AmientLight_Pag_VARIABLE_pageHandle;
+static ATMO_DriverInstanceHandle_t ATMO_AirQuality_Pag_VARIABLE_pageHandle;
+
+#ifdef __cplusplus
+}
+#endif
+#endif
